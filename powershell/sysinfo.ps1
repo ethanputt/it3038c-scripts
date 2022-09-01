@@ -1,0 +1,10 @@
+﻿function getIP{
+    (get-netipaddress).ipv4address | Select-String "10*"
+}
+write-host(getIP)
+
+$IP = getIP
+
+Write-Host("This machine's IP is $IP")
+
+Write-Host("This machine's IP is {0}" -f $IP)
