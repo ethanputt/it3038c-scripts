@@ -1,4 +1,4 @@
-﻿
+
 $day = (get-date).day
 $dayofweek = (get-date).dayofweek
 $month = (Get-Culture).DateTimeFormat.GetMonthName(9)

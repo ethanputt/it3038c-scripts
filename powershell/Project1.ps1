@@ -1,4 +1,4 @@
-﻿#Variables:
+#Variables:
 
 $Name = 'Ethan'
 $Time = (get-date).ToString('T')
