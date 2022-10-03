@@ -1,13 +1,13 @@
 # Lab 7 Excel Plugin
 
-Here is how you can run can create Excel data without using excel!
+Here is how you can create Excel data and visualizations without using excel!
 
 First, lets install the Module we are going to need
 
 ```powershell
 Install-Module -Name ImportExcel
 ```
-Next lets think about what kind of data we would like to use. For thix example I am going to use Student Grades in a class.
+Next lets think about what kind of data we would like to use. For this example I am going to use Student Grades in a class.
 
 ```powershell
 $data = ConvertFrom-Csv @"
@@ -19,9 +19,9 @@ Oconnor,Stacy,53
 James,Patrick,87
 "@
 ```
-The $data lines is going to create the column titles for your data. You can choose as many columns as you would like.
+The $data line is going to create the column titles for your data. You can choose as many columns as you would like.
 
-Then we are going want to export this data before we start to make visualizations with it.
+Then we are going to want to export this data before we start to make visualizations with it.
 ```powershell
 $data | Export-Excel .\studentGrade.xlsx
 ```
@@ -29,7 +29,7 @@ Now we need to import it again so the module knows what data to use.
 ```powershell
 $data = Import-Excel .\studentGrade.xlsx
 ```
-Now lets make display our input a in a bar chart!
+Now lets display our data in a bar chart!
 ```powershell
 $data
 
