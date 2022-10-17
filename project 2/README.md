@@ -46,7 +46,7 @@ Date       maxTemp minTemp Summary
 10/20/2022 84      64      Partly Sunny
 10/21/2022 84      63      Mostly Sunny
 10/22/2022 82      58      Breezy      
-10/23/2022 75      value   Mostly Sunny
+10/23/2022 75      61      Mostly Sunny
 ```
 Earlier if I had chosen to answer 'n' for no for the weather question it would have returned this
 
