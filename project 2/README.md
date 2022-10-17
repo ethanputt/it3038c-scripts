@@ -11,7 +11,7 @@ Then you will be asked what your name is which you should answer with your first
 
 The command will then return a greeting based on the time of day, the time, and then an encouraging message based on the time of based on the time of day.
 
-From there you will be asked if you want to know the weather for your area. You can anser with 'y' or 'n'
+From there you will be asked if you want to know the weather for your area. You can answer with 'y' or 'n'
 
 If 'y' then you will be asked to enter your zip then the weather will be displayed,
 
