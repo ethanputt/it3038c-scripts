@@ -11,4 +11,3 @@ html = parent
 
 with open("output.html", "w", encoding='utf-8') as file:
     file.write(str(soup.prettify()))
->>>>>>> f76f2ffb03cf76df7960cb54f5ab0e7f9f5815cb
