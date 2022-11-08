@@ -4,7 +4,7 @@ Hi there! This script is an improvement on project 1.
 
 In order to run the code go to my github page https://github.com/ethanputt/it3038c-scripts and download my repository. You download the repository by clicking on "code" and in the dropdown there will be a "Download ZIP" option.
 
-Once you have the ZIP downloaded, extract only the Project2.ps2 and save it in a folder on your C:\ drive.
+Once you have the ZIP downloaded, extract only the Project2.ps1 and save it in a folder on your C:\ drive.
 
 First, make sure you launch powershell ISE as an ADMINISTRATOR. This will allow cmdlet to install.
 
