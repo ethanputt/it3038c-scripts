@@ -171,6 +171,8 @@ if ($answers[9] -eq $correctA[9]) { $noCorrect++ }
 
 Clear-Host
 
+#this provides the user their score range along with the name of a character form the office
+
 if (($noCorrect -eq 0) -or ($noCorrect -eq 1)){
     Write-Host 
     Write-Host "You got 0-1 questions correct"
