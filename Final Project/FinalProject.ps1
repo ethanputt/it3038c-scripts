@@ -1,5 +1,5 @@
 ﻿# This is Ethan Putt's Final project submission
-# This is a fun trivia game to test your knowledge of on my favorite Tv shows: The Office
+# This is a fun trivia game to test your knowledge of on my favorite Tv show: The Office
 
 #Creating the questions assigned to a variable (See read me for credit to questions)
 $q1 = "What’s Pam’s favorite flavor of yogurt? (EASY)"
