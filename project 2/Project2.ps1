@@ -1,10 +1,5 @@
 ﻿#Checks to see if weather module is installed (MUST BE ADMINISTRATOR)
-if ($cmd) {#
-    'Weather Command is installed'
-    }
-else {
-    Install-Script -Name Get-Weather
-    }
+
 
 #Variables:
 
