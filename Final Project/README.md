@@ -13,8 +13,11 @@ Second, go ahead and click the green play button to run the script. The script w
 **About this game**
 
 While researching different project ideas I came across the idea for a pyhton game. I am not very familiar with python so I decided to give it a try in powershell! I then decided to make a a trivia game on one of my favorite TV shows, The Office. Below are some of the links I used in making this game:
+
 https://www.scarymommy.com/the-office-trivia
+
 https://www.computerperformance.co.uk/powershell/contains/
+
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comparison_operators?view=powershell-7.3
 
 Thanks for playing!!
