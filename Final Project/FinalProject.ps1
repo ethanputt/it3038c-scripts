@@ -13,7 +13,7 @@ $q8 = "What did Kevin buy for his secret Santa? (HARD)"
 $q9 = "What is Jim’s favorite food? (HARD)"
 $q10 = "Who beats Kevin in poker on Casino Night? (HARD)"
 
-#Stores answers for questions above for scoring later
+#Stores user input from questions above
 $answers = "","","","","","","","","",""
 
 #Only entries acceptable from user input
@@ -35,7 +35,7 @@ Write-Host "Please Enter only the letters A B C or D for the corrsponding answer
 Write-Host "Press Enter to Get Started"
 Read-Host
 
-#This asks the user the trivia and receives their question input
+#This asks the user the trivia and receives their question input. A total of 10 questions follow
 while ($acceptable -notcontains $answers[0]) {
  Write-Host " "
  Write-Host $q1
